@@ -20,4 +20,8 @@ class MainActivity : AppCompatActivity() {
 
         textView.text = newValue
     }
+
+    fun clear(view: View) {
+        textView.text = ""
+    }
 }
